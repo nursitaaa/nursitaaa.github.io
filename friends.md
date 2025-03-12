@@ -19,4 +19,4 @@ berikut teman - teman saya di kelas :
 - [Muhammad Zaki Fahrezi]_(https://m-zakifahrezi.github.io/)_
 - [Mohd. Muda Abrar]_(https://mudaabrar.github.io/)_
 - [Najwa Al Fajra]_(https://najwaal-fajra.github.io/)_
-- [Nursita]_(https://nursitaaa.github.io/)_
+- 
