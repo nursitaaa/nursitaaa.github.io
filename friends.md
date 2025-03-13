@@ -10,7 +10,7 @@ berikut teman - teman saya di kelas :
 2. [Al Anisa Maharani](https://alanisamaharani.github.io/)
 3. [Al Faiz Akbar Thaib](https://alfaizakbar.github.io)
 4. [Alisya Teriana]( https://alisyateriana.github.io/)
-5. [Allysa Humaira]_(https://allysahumaira.github.io/)
+5. [Allysa Humaira](https://allysahumaira.github.io/)
 6. [Amirullah](htts://amirullah310.github.io/)
 7. [Ananda Putri Nabilla](https://anandaaputrinabilla.github.io/)
 8. [Balqis Meisya](https://balqismisyia.github.io/)
