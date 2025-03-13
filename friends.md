@@ -2,29 +2,33 @@
 layout : default
 titte : Friends
 ---
-# Friends page 
+# Friends page jekyll
 
 
 berikut teman - teman saya di kelas :
-- [Ahmad Fayyadd]_(https://ahmadfayyadh.github.io/)_
-- [Al Anisa Maharani]_(https://alanisamaharani.github.io/)_
-- [Al Faiz Akbar Thaib]_(https://alfaizakbar.github.io)_
-- [Alisya Teriana]_( https://alisyateriana.github.io/)_
-- [Allysa Humaira]_(https://allysahumaira.github.io/)_
-- [Amirullah]_(https://amirullah310.github.io/)_
-- [Ananda Putri Nabilla]_(https://anandaaputrinabilla.github.io/)_
-- [Darmawan Sah putra]_(https://darmawansahputra1.github.io/)_
-- [Dinda Eliza]_(https://dindaelz06.github.io/)_
-- [Farid Haikal]_(https://fared08.github.io)_
-- [Janrico Maulana Sofyan]_(https://janricomaulanas.github.io/)_
-- [Muhammad Alfaraby]_(https://muhammadalfaraby06.github.io/)_
-- [Muhammad Alif Sidqi]_(https://alfsdqi.github.io/)_
-- [Amharul Azhan]_(https://amharul.github.io/)_
-- [Muhammad Nawar Khadafi]_(https://khadafimuhammadnawwar.github.io/)_
-- [Muhammad Raihan]_(https://mraihanads.github.io/)_
-- [Muhammad Zaky]_(https://muhzakyyy.github.io/)_
-- [Muhammad Zaki Fahrezi]_(https://m-zakifahrezi.github.io/)_
-- [Mohd. Muda Abrar]_(https://mudaabrar.github.io/)_
-- [Mutyara Assyifa]_(https://mutyaraassyifa.github.io/)_
-- [Najwa Al Fajra]_(https://najwaal-fajra.github.io/)_
-- [T.Ahmad Addairabi Asyafi'ie]_(https://addairabi.github.io/)_
+1. [Ahmad Fayyadd](https://ahmadfayyadh.github.io/)
+2. [Al Anisa Maharani](https://alanisamaharani.github.io/)
+3. [Al Faiz Akbar Thaib](https://alfaizakbar.github.io)
+4. [Alisya Teriana]( https://alisyateriana.github.io/)
+5. [Allysa Humaira]_(https://allysahumaira.github.io/)
+6. [Amirullah](htts://amirullah310.github.io/)
+7. [Ananda Putri Nabilla](https://anandaaputrinabilla.github.io/)
+8. [Balqis Meisya](https://balqismisyia.github.io/)
+9. [Darmawan Sah putra](https://darmawansahputra1.github.io/)
+10. [Dinda Eliza](https://dindaelz06.github.io/)
+11. [Farid Haikal](https://fared08.github.io)
+12. [Janrico Maulana Sofyan](https://janricomaulanas.github.io/)
+13. [Muhammad Alfaraby](https://muhammadalfaraby06.github.io/)
+14. [Muhammad Alif Sidqi](https://alfsdqi.github.io/)
+15. [Amharul Azhan](https://amharul.github.io/)
+16.  [Muhammad Nawar Khadafi](https://khadafimuhammadnawwar.github.io/)
+17. [Muhammad Raihan](https://mraihanads.github.io/)
+18. [Muhammad Zaky](https://muhzakyyy.github.io/)
+19. [Muhammad Zaki Fahrezi](https://m-zakifahrezi.github.io/)
+20. [Mohd. Muda Abrar](https://mudaabrar.github.io/)
+21. [Mutyara Assyifa](https://mutyaraassyifa.github.io/)
+22. [Najwa Al Fajra](https://najwaal-fajra.github.io/)
+23. [Nursita](https://nursitaaa.github.io/)
+24. [rafi'i habibi](https://rafi-i-habibi.github.io/)
+25. [ Syahan Alfatih](https://syahanalfatih.github.io/)
+26. [T.Ahmad Addairabi Asyafi'ie](https://addairabi.github.io/)
