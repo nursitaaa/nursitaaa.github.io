@@ -1,0 +1,254 @@
+.current {
+    color:rgba(5, 9, 9, 0.8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.last_name {
+    color: rgb(2, 24, 46);
+}
+// Variabel untuk warna dan font
+$primary-color: #073066; 
+$secondary-color: #275c8d;
+$accent-color: #34a853; 
+$background-color: #9dc7f1; 
+$white-color: #ffffff; 
+$shadow-color: rgba(38, 20, 92, 0.727); 
+
+$font-family : 'Cambria, Cochin, Georgia, Times, 'Times New Roman', serif';
+$font-size-base: 16px;
+$font-size-heading: 2rem;
+
+// Reset standar dan styling dasar
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+
+body {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: $background-color;
+  color: $primary-color;
+  font-size: $font-size-base;
+  line-height: 1.6;
+  padding: 50px;
+  min-height: 100vh;
+}
+
+// Header
+header {
+  background: linear-gradient(135deg, $secondary-color, $accent-color);
+  padding: 40px;
+  color: $white-color;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 0 10px 30px $shadow-color;
+  
+  h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+  }
+}
+
+// Navigasi
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: $white-color;
+  padding: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px $shadow-color;
+  
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    text-decoration: none;
+    color: $primary-color;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 8px 15px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    
+    &:hover {
+      background-color: $secondary-color;
+      color: $white-color;
+      transform: translateY(-3px);
+    }
+  }
+}
+
+// Konten Utama
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 40px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  
+  section {
+    background-color: $white-color;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow:  4px 12px $shadow-color;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px $shadow-color;
+    }
+    
+    h2 {
+      font-size: 1.8rem;
+      color: $secondary-color;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    .cta-button {
+      padding: 12px 20px;
+      background-color: $secondary-color;
+      color: $white-color;
+      text-decoration: none;
+      font-size: 1.1rem;
+      border-radius: 5px;
+      display: inline-block;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      
+      &:hover {
+        background-color: $accent-color;
+        transform: translateY(-3px);
+      }
+    }
+  }
+}
+
+// Footer
+footer {
+  background-color: $secondary-color;
+  color: $white-color;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px $shadow-color;
+  
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+  
+  a {
+    color: $white-color;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    
+    &:hover {
+      color: $accent-color;
+    }
+  }
+}
+
+// Formulir
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin: 40px auto;
+  
+  input, textarea {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    
+    &:focus {
+      border-color: $secondary-color;
+    }
+  }
+
+  button {
+    padding: 15px;
+    background-color: $secondary-color;
+    color: $white-color;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+    &:hover {
+      background-color: $accent-color;
+    }
+  }
+}
+
+// Responsivitas (Media Queries)
+@media (max-width: 1024px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+  }
+
+  section {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  header {
+    padding: 25px;
+    h1 {
+      font-size: 2.2rem;
+    }
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 20px;
+    h1 {
+      font-size: 1.8rem;
+    }
+  }
+
+  nav ul {
+    gap: 10px;
+  }
+
+  .cta-button {
+    padding: 10px 18px;
+    font-size: 1rem;
+  }
+}
