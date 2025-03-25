@@ -5,7 +5,7 @@
 }
 
 .last_name {
-    color: rgb(113, 173, 233);
+    color: rgb(144, 30, 146);
 }
 // Variabel untuk warna dan font
 $primary-color: #073066; 
@@ -15,7 +15,7 @@ $background-color: #9dc7f1;
 $white-color: #ffffff; 
 $shadow-color: rgba(38, 20, 92, 0.727); 
 
-$font-family : 'Cambria, Cochin, Georgia, Times, 'Times New Roman', serif';
+$font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 $font-size-base: 16px;
 $font-size-heading: 2rem;
 
@@ -27,7 +27,7 @@ $font-size-heading: 2rem;
 }
 
 body {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:$font-family;
   background-color: $background-color;
   color: $primary-color;
   font-size: $font-size-base;
@@ -205,7 +205,7 @@ form {
 }
 
 // Responsivitas (Media Queries)
-@media (max-width: 1024px) {
+@media (max-width: 600px) {
   main {
     grid-template-columns: 1fr 1fr;
     padding: 20px;
@@ -216,7 +216,7 @@ form {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   main {
     grid-template-columns: 1fr;
     padding: 15px;
@@ -235,7 +235,7 @@ form {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   header {
     padding: 20px;
     h1 {
