@@ -145,43 +145,6 @@ main {
   }
 }
 
-// Formulir
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  max-width: 600px;
-  margin: 40px auto;
-
-  input,
-  textarea {
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    font-size: 1rem;
-    transition: border-color 0.3s ease;
-
-    &:focus {
-      border-color: $secondary-color;
-    }
-  }
-
-  button {
-    padding: 15px;
-    background-color: $secondary-color;
-    color: $white-color;
-    border: none;
-    border-radius: 8px;
-    font-size: 1.1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-
-    &:hover {
-      background-color: $accent-color;
-    }
-  }
-}
-
 // Footer
 footer {
   background-color: $secondary-color;
@@ -208,6 +171,7 @@ footer {
   }
 }
 
+// halaman friends 
 .friends {
   padding: 40px;
   text-align: center;
@@ -274,12 +238,12 @@ footer {
 
   &:hover {
     background-color: #fff3e0;
-    border-color: #ff9800;
+    border-color: #eca6ec;
   }
 
   h2 a {
     text-decoration: none;
-    color: #ff5722;
+    color: #cea0e7;
   }
 }
 
