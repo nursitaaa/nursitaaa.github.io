@@ -4,33 +4,38 @@ titte : Friends
 ---
 # Friends Page Jekyll
 
+<section class="friends">
+  <h1>Friends Page Jekyll</h1>
+  <p>Berikut teman-teman saya di kelas:</p>
 
-berikut teman - teman saya di kelas :
-1. [Ahmad Fayyadd](https://ahmadfayyadh.github.io/)
-2. [Al Anisa Maharani](https://alanisamaharani.github.io/)
-3. [Al Faiz Akbar Thaib](https://alfaizakbar.github.io)
-4. [Alisya Teriana]( https://alisyateriana.github.io/)
-5. [Allysa Humaira](https://allysahumaira.github.io/)
-6. [Amirullah](htts://amirullah310.github.io/)
-7. [Ananda Putri Nabilla](https://anandaaputrinabilla.github.io/)
-8. [Anggi Sya'ban Nabilla Batu bara](https://angginabilabatubara.github.io/)
-9. [Balqis Meisya](https://balqismisyia.github.io/)
-10. [Cut Yumna Asyifa](https://cutyumnaassyifa22.github.io/cutyumnaaassyifa.github.io/)
-11. [Darmawan Sah putra](https://darmawansahputra1.github.io/)
-12. [Dinda Eliza](https://dindaelz06.github.io/)
-13. [Farid Haikal](https://fared08.github.io)
-14. [Janrico Maulana Sofyan](https://janricomaulanas.github.io/)
-15. [Muhammad Alfaraby](https://muhammadalfaraby06.github.io/)
-16. [Muhammad Alif Sidqi](https://alfsdqi.github.io/)
-17. [Amharul Azhan](https://amharul.github.io/)
-18. [Muhammad Nawar Khadafi](https://khadafimuhammadnawwar.github.io/)
-19. [Muhammad Raihan](https://mraihanads.github.io/)
-20. [Muhammad Zaky](https://muhzakyyy.github.io/)
-21. [Muhammad Zaki Fahrezi](https://m-zakifahrezi.github.io/)
-22. [Mohd. Muda Abrar](https://mudaabrar.github.io/)
-23. [Mutyara Assyifa](https://mutyaraassyifa.github.io/)
-24. [Najwa Al Fajra](https://najwaal-fajra.github.io/)
-25. [Nursita](https://nursitaaa.github.io/)
-26. [rafi'i habibi](https://rafi-i-habibi.github.io/)
-27. [ Syahan Alfatih](https://syahanalfatih.github.io/)
-28. [T.Ahmad Addairabi Asyafi'ie](https://addairabi.github.io/)
+  <div class="grid-container">
+    <div class="friend-card"><a href="https://ahmadfayyadh.github.io/">Ahmad Fayyadd</a></div>
+    <div class="friend-card"><a href="https://alanisamaharani.github.io/">Al Anisa Maharani</a></div>
+    <div class="friend-card"><a href="https://alfaizakbar.github.io">Al Faiz Akbar Thaib</a></div>
+    <div class="friend-card"><a href="https://alisyateriana.github.io/">Alisya Teriana</a></div>
+    <div class="friend-card"><a href="https://allysahumaira.github.io/">Allysa Humaira</a></div>
+    <div class="friend-card"><a href="https://amirullah310.github.io/">Amirullah</a></div>
+    <div class="friend-card"><a href="https://anandaaputrinabilla.github.io/">Ananda Putri Nabilla</a></div>
+    <div class="friend-card"><a href="https://angginabilabatubara.github.io/">Anggi Sya'ban Nabilla Batu bara</a></div>
+    <div class="friend-card"><a href="https://balqismisyia.github.io/">Balqis Meisya</a></div>
+    <div class="friend-card"><a href="https://cutyumnaassyifa22.github.io/cutyumnaaassyifa.github.io/">Cut Yumna Asyifa</a></div>
+    <div class="friend-card"><a href="https://darmawansahputra1.github.io/">Darmawan Sah putra</a></div>
+    <div class="friend-card"><a href="https://dindaelz06.github.io/">Dinda Eliza</a></div>
+    <div class="friend-card"><a href="https://fared08.github.io">Farid Haikal</a></div>
+    <div class="friend-card"><a href="https://janricomaulanas.github.io/">Janrico Maulana Sofyan</a></div>
+    <div class="friend-card"><a href="https://muhammadalfaraby06.github.io/">Muhammad Alfaraby</a></div>
+    <div class="friend-card"><a href="https://alfsdqi.github.io/">Muhammad Alif Sidqi</a></div>
+    <div class="friend-card"><a href="https://amharul.github.io/">Amharul Azhan</a></div>
+    <div class="friend-card"><a href="https://khadafimuhammadnawwar.github.io/">Muhammad Nawar Khadafi</a></div>
+    <div class="friend-card"><a href="https://mraihanads.github.io/">Muhammad Raihan</a></div>
+    <div class="friend-card"><a href="https://muhzakyyy.github.io/">Muhammad Zaky</a></div>
+    <div class="friend-card"><a href="https://m-zakifahrezi.github.io/">Muhammad Zaki Fahrezi</a></div>
+    <div class="friend-card"><a href="https://mudaabrar.github.io/">Mohd. Muda Abrar</a></div>
+    <div class="friend-card"><a href="https://mutyaraassyifa.github.io/">Mutyara Assyifa</a></div>
+    <div class="friend-card"><a href="https://najwaal-fajra.github.io/">Najwa Al Fajra</a></div>
+    <div class="friend-card"><a href="https://nursitaaa.github.io/">Nursita</a></div>
+    <div class="friend-card"><a href="https://rafi-i-habibi.github.io/">Rafi'i Habibi</a></div>
+    <div class="friend-card"><a href="https://syahanalfatih.github.io/">Syahan Alfatih</a></div>
+    <div class="friend-card"><a href="https://addairabi.github.io/">T.Ahmad Addairabi Asyafi'ie</a></div>
+  </div>
+</section>
