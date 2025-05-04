@@ -1,0 +1,18 @@
+title: Home
+baseurl: "" # kalau di root, biarkan kosong
+url: "https://nursitaaa.github.io/" # ganti sesuai username kamu
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+theme: null
+
+includes:
+- assets
+
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
