@@ -8,10 +8,6 @@ sass:
 
 theme: null
 
-includes:
-- assets
-
-
 plugins:
   - jekyll-feed
   - jekyll-sitemap
