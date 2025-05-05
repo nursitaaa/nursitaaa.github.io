@@ -1,6 +1,6 @@
 title: Home
-baseurl: "" # kalau di root, biarkan kosong
-url: "https://nursitaaa.github.io" # ganti sesuai username kamu
+baseurl: "/nursitaaa"  # Ganti sesuai nama repo kamu
+url: "https://nursitaaa.github.io"
 
 sass:
   style: compressed
