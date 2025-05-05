@@ -1,6 +1,6 @@
 title: Home
 baseurl: "" # kalau di root, biarkan kosong
-url: "https://nursitaaa.github.io/" # ganti sesuai username kamu
+url: "https://nursitaaa.github.io" # ganti sesuai username kamu
 
 sass:
   style: compressed
