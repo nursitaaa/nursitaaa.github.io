@@ -1,6 +1,7 @@
 title: Home
 baseurl: "/nursitaaa"  # Ganti sesuai nama repo kamu
-url: "https://nursitaaa.github.io"
+url: https://nursitaaa.github.io/nursitaaa/
+
 
 sass:
   style: compressed
