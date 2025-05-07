@@ -18,7 +18,7 @@ Berikut adalah penjelasan tentang cara Menambahkan Vidio di HTML.
     2. Pastikan kamu memiliki hak untuk menyebarkan video tersebut.  
     3. Editor teks, seperti Notepad atau lebih baik lagi, editor teks khusus untuk coding seperti Sublime Text, Visual Studio Code, Notepad++, dll.
 
----
+
 ---
 
 ## Pengenalan Tag Video

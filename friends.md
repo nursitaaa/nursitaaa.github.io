@@ -1,7 +1,8 @@
 ---
-layout : default
-titte : Friends
+layout: default
+title: Friends
 ---
+
 # Friends Page Jekyll
 
 <section class="friends">
