@@ -1,7 +1,6 @@
 title: Home
-baseurl: ""  # Ganti sesuai nama repo kamu
-url: https://nursitaaa.github.io/nursitaaa/
-
+baseurl: "/nursitaaa"    # Sesuaikan dengan nama repo GitHub Pages-mu
+url: https://nursitaaa.github.io
 
 sass:
   style: compressed
@@ -12,3 +11,4 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  
