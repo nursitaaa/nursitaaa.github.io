@@ -3,6 +3,7 @@ baseurl: "/nursitaaa"    # Sesuaikan dengan nama repo GitHub Pages-mu
 url: https://nursitaaa.github.io
 
 sass:
+  sass_dir: assets/css
   style: compressed
 
 theme: null
@@ -11,4 +12,3 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  
