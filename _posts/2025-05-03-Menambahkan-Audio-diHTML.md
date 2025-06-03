@@ -7,8 +7,8 @@ Berikut adalah penjelasan tentang cara Menambahkan Audio di HTML.
 
 
 <audio controls>
-  <source src="/assets/audio/short-8-228137.mp3" type="audio/mpeg">
-  <source src="/assets/audio/short-8-228137.ogg" type="audio/ogg">
+  <source src="\nursitaaa\assets\audio\short-8-228137.mp3">
+  <source src="\nursitaaa\assets\audio\short-8-228137" type="audio/ogg">
   Browser kamu tidak mendukung pemutar audio.
 </audio>
 

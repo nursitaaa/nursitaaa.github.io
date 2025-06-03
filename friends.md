@@ -3,10 +3,10 @@ layout: default
 title: Friends
 ---
 
+
 # Friends Page Jekyll
 
 <section class="friends">
-  <h1>Friends Page Jekyll</h1>
   <p>Berikut teman-teman saya di kelas:</p>
 
   <div class="grid-container">

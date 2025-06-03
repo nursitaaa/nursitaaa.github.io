@@ -6,9 +6,12 @@ title: "Menambahkan Vidio di HTML"
 Berikut adalah penjelasan tentang cara Menambahkan Vidio di HTML.
 
 <video width="640" height="360" controls>
-  <source src="\assets\vidio\mov_bbb.mp4" type="video/mp4">
+  <source src="\nursitaaa\assets\vidio\mov_bbb.mp4" type="video/mp4">
   Browser Anda tidak mendukung elemen video.
 </video>
+
+
+Menambahkan video ke dalam website HTML dapat meningkatkan interaktivitas dan daya tarik bagi pengunjung. Dengan kemajuan HTML5, proses ini menjadi lebih sederhana dan efisien. Kamu dapat menyematkan video langsung ke halaman web tanpa memerlukan plugin eksternal. Artikel ini akan membahas cara memasukkan video ke website HTML menggunakan tag <video>, termasuk struktur dasar dan atribut penting yang perlu diperhatikan.
 
 ## Prasyarat
 
@@ -25,6 +28,52 @@ Berikut adalah penjelasan tentang cara Menambahkan Vidio di HTML.
 
     HTML 5 memperkenalkan tag `<video>` yang dapat digunakan untuk embed video ke dalam halaman HTML. Tag ini sangat fleksibel dan mendukung berbagai format video, termasuk MP4, WebM, dan Ogg.
 
+    Tag <video> dalam HTML5 digunakan untuk menyematkan konten video langsung ke dalam halaman web. Penggunaan tag ini memungkinkan kamu menampilkan video tanpa memerlukan plugin tambahan, sehingga kompatibilitas dan aksesibilitas situs meningkat. Sebelum menambahkan video, pastikan format file video yang digunakan didukung oleh browser, seperti MP4, WebM, atau OGG.
+
+---
+---
+
+### Struktur Dasar Tag <video>
+
+    Struktur dasar tag <video> melibatkan pembukaan tag <video>, penentuan sumber video menggunakan tag <source>, dan penutupan tag </video>. Berikut contoh sederhana:
+    ```
+    <video width="640" height="360" controls>
+
+    <source src="video-sample.mp4" type="video/mp4">
+
+    <source src="video-sample.webm" type="video/webm">
+
+    Browser kamu tidak mendukung tag video.
+
+    </video>
+    ```
+
+    Dalam contoh di atas, atribut width dan height menentukan ukuran pemutar video, sedangkan controls menambahkan kontrol pemutaran seperti play, pause, dan volume. Tag <source> digunakan untuk menentukan sumber video dengan atribut src sebagai lokasi file dan type sebagai format file. Menambahkan beberapa tag <source> dengan format berbeda memastikan kompatibilitas dengan berbagai browser.
+
+
+---
+---
+
+### Atribut Penting dalam Tag <video>
+    Tag <video> memiliki beberapa atribut yang dapat disesuaikan untuk mengontrol perilaku dan tampilan video di halaman web. Berikut beberapa atribut penting yang sering digunakan:
+
+    src untuk Menentukan Sumber Video
+    Atribut src digunakan untuk menentukan URL sumber video yang akan diputar. Namun, praktik terbaik adalah menggunakan tag <source> di dalam tag <video> untuk mendefinisikan sumber video, memungkinkan penambahan beberapa format video untuk kompatibilitas yang lebih baik. Contoh:
+
+    ```
+    <video controls>
+
+    <source src="video-sample.mp4" type="video/mp4">
+
+    <source src="video-sample.webm" type="video/webm">
+
+    Browser kamu tidak mendukung tag video.
+
+    </video>
+    ```
+
+    Ketika menambahkan beberapa sumber video dalam format berbeda, browser akan memilih format yang didukungnya, sehingga video dapat diputar dengan baik.
+
 ---
 ---
 
@@ -32,7 +81,7 @@ Berikut adalah penjelasan tentang cara Menambahkan Vidio di HTML.
 
     Berikut adalah langkah-langkah untuk menambahkan video ke halaman HTML:
 
-        ### 1. Siapkan Tag Video
+ 1. Siapkan Tag Video
 
         Buka editor teks kamu dan buat struktur dasar HTML jika belum ada. Kemudian, tambahkan tag `<video>` ke bagian yang kamu ingin letakkan videonya.
 
@@ -48,18 +97,17 @@ Berikut adalah penjelasan tentang cara Menambahkan Vidio di HTML.
 ---
 ---
 
+        ### 2. Tambahkan Source Video
 
-### 2. Tambahkan Source Video
+        Selanjutnya, tambahkan tag `<source>` di dalam tag `<video>`. Tag ini digunakan untuk menunjukkan lokasi dan jenis file video.
 
-    Selanjutnya, tambahkan tag `<source>` di dalam tag `<video>`. Tag ini digunakan untuk menunjukkan lokasi dan jenis file video.
+        Misalnya, jika kamu memiliki file video bernama “videoKu.mp4” di folder yang sama dengan file HTML, maka isi tag `<source>` akan menjadi seperti ini:
 
-    Misalnya, jika kamu memiliki file video bernama “videoKu.mp4” di folder yang sama dengan file HTML, maka isi tag `<source>` akan menjadi seperti ini:
-
-    ```
-    <source src="\assets\vidio\mov_bbb.mp4" type="video/mp4">
-    Browser Anda tidak mendukung elemen video.
-    </video>
-    ```
+        ```
+        <source src="\assets\vidio\mov_bbb.mp4" type="video/mp4">
+        Browser Anda tidak mendukung elemen video.
+        </video>
+        ```
 ---
 ---
 
