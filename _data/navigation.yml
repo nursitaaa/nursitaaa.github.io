@@ -1,6 +1,6 @@
 - name: Home
-  link: /nursitaaa/
-- name: Friends
-  link: /nursitaaa/friends.html
+  link: /
+- name: Friend
+  link: /friend/
 - name: Blog
-  link: /nursitaaa/blog.html
+  link: /blog/
