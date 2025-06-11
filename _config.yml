@@ -1,6 +1,5 @@
 title: Home
-description: My personal website
-baseurl: ""  # kosong karena ini GitHub Pages utama
+baseurl: ""
 url: "https://nursitaaa.github.io"
 
 sass:
