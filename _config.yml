@@ -3,7 +3,7 @@ baseurl: ""
 url: "https://nursitaaa.github.io"
 
 sass:
-  sass_dir: _sass
+  sass_dir: assets/css
   style: compressed
 
 plugins:
