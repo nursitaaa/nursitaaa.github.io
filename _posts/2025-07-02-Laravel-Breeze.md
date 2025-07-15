@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Menambahkan Data dalam Laravel"
+title: "Lavarel Breeze"
 ---
 
 
 
-Berikut langkah-langkah **menambahkan data dalam Laravel**:
+Berikut langkah-langkah **Laravel Breeze**:
 
 ---
 
